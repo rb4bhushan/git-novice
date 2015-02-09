@@ -1,0 +1,23 @@
+pc_name@git_name ~
+
+$ cd repository_name
+
+$ git clone SSH-clone-URL
+//Clonning repository
+
+$ ls
+READ.md
+
+$ vim REAM.md
+//write mode - can modify using vim editor
+//insert mode : esc + a  
+//save and quite : esc + :wq
+
+$ git status
+
+$ git add README.md
+
+$ git commit -m "message"
+//pass message to user
+
+$ git push -u origin master
